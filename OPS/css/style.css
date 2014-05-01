@@ -1,0 +1,36 @@
+.base {
+	font-family: "Times New Roman", serif;
+	font-size: 12pt;
+	margin: 1.0in;
+}
+
+.cover {
+	text-align: center;
+	margin: 1.0in;
+}
+
+.title {
+	font-weight: bold;
+	text-align: center;
+}
+
+.content {
+	line-height: 2.0;
+	text-indent: 0.5in;
+}
+
+.quotes {
+	text-align: justify;
+	width: 80%;
+	line-height: 1.0;
+	margin: 1em auto;
+}
+
+.header {
+	text-align: center;	
+}
+
+.sources {
+	text-align: left;
+	list-style-type: none;
+}
