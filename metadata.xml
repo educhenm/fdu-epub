@@ -1,1 +1,31 @@
-<dc:rights>Creative Commons Non-Commercial Share Alike 3.0</dc:rights><dc:language>en-US</dc:language>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="en"
+	unique-identifier="pub-identifier">
+	<metadata>
+		<dc:identifier id="pub-identifier">urn:isbn:9781449328030</dc:identifier>
+		<dc:title id="pub-title">Methods for Writing Technical Documents</dc:title>
+		<dc:language id="pub-language">en</dc:language>
+		<dc:date>2014-06-06</dc:date>
+		<meta property="dcterms:modified">2012-10-24T15:43:44Z</meta>
+		<dc:rights>Copyright © 2013 Chris Finazzo</dc:rights>
+	</metadata>
+	<manifest>
+		<item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="bk01-toc.xhtml"/>
+		<item media-type="text/css" id="epub-css" href="css/epub.css"/>
+		<item media-type="text/css" id="epub-tss-css" href="css/synth.css"/>
+		<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+		<item id="cover-image" properties="cover-image" href="covers/9781449328030_lrg.jpg" media-type="image/jpeg"/>
+		<item id="id-id2442754" href="index.xhtml" media-type="application/xhtml+xml"/>
+		<item id="id-id2632344" href="pr01.xhtml" media-type="application/xhtml+xml"/>
+		<item id="id-id2604743" href="pr01s02.xhtml" media-type="application/xhtml+xml"/>
+	</manifest>
+	<spine>
+		<itemref idref="cover" linear="no"/>
+		<itemref idref="spi_ad"/>
+		<itemref idref="id-id2442754"/>
+		<itemref idref="htmltoc" linear="yes"/>
+		<itemref idref="id-id2632344"/>
+		<itemref idref="id-id2604743"/>
+	</spine>
+</package>
